@@ -6,4 +6,4 @@ from keras.models import Sequential #Архитектура нейросети
 from keras.layers import Dense #Слой в нейросети
 from keras.utils import to_categorical
 
-import train.py
+import train
