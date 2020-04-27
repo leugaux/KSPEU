@@ -1,8 +1,8 @@
 #Загрузка набора данных
-train_images = mnist.train_images()#Изображения train-данных
-train_labels = mnist.train_labels()#Метки train-данных
-test_images = mnist.test_images()#Изображения test-данных
-test_labels = mnist.test_labels()#Метки test-данных
+train_images = knn.mnist.train_images()#Изображения train-данных
+train_labels = knn.mnist.train_labels()#Метки train-данных
+test_images = knn.mnist.test_images()#Изображения test-данных
+test_labels = knn.mnist.test_labels()#Метки test-данных
 #train.py
 #Нормализация изображений. Преобразуем значения пикселей (от 0 до 255)
 #в диапазон от -0.5 до 0.5 для более легкой тренировки нейросети
